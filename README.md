@@ -24,10 +24,10 @@ Modal Testing Results - Natural Frequencies (Hz)
 |---|---|---|---|
 | FRF | Natural Frequency (15th May) | Natural Frequency (13th May) |  |
 | Date | 2023 | 2023 |  |
-| Hxx | 13, 37, 55 | - | Experiment repeatable |
-| Hyy | 15, 66, 107 | 51, 68, 109 | Repeatable (high freq.) |
-| Hzz | 9, 14, 56 | - | Not repeatable (low freq.) |
-| Hxy | 13, 34, 57 | 8, 55, 106 | Not repeatable (low freq.) |
+| Hxx | 13, 37, 55 | - | The experiment is repeatable as FRF overlaps |
+| Hyy | 15, 66, 107 | 51, 68, 109 | "The data for Hyy collected on 15th May is repeatable as FRF coincides. It also shows that the data is coherent with experiments on 13th May at higher frequency (>50Hz). Both data set have Wn at ~66 and 107 Hz." |
+| Hzz | 9, 14, 56 | - | Data not repeatable for low frequency(<10Hz) above that the two sets of Hzz are repeatable |
+| Hxy | 13, 34, 57 | 8, 55, 106 | "The data for Hxy collected on 15th May is not repeatable at low frequency (<40Hz). It also shows that the data is coherent with experiments on 13th May at higher frequency (>40Hz). Both data set have Wn at ~55 Hz." |
 | Hyx | 8, 13, 34, 56 | 56, 74 | Peak at 56 Hz |
 | Hzy | 13, 33, 54 | - | No data |
 | Hyz | - | - | Not repeatable |
