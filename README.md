@@ -7,22 +7,42 @@ This project investigates the modal properties (natural frequencies and mode sha
 **Structural health monitoring**: Changes in modal properties over time can indicate potential damage or fatigue in the robot structure.
 
 ## Experimental Setup
+Fanuc Robotic Arm ()
 
-The experiment involved setting up the robot in a well-defined pose and mounting a single-axis accelerometer (Dytran 3055D2) at various locations. A modal hammer (PCB 086D20 with a hard tip) was used to excite the robot structure at different points. The data acquisition system (NI DAQ cDAQ-9171) captured the response of the accelerometer to the impact excitation. The collected data was analyzed to determine the natural frequencies of the robot arm.
+Single-axis accelerometer (Dytran 3055D2) at various locations
+
+Modal hammer (PCB 086D20 with a hard tip) was used to excite the robot structure at different points
+
+The data acquisition system (NI DAQ cDAQ-9171) captured the response of the accelerometer to the impact excitation
+
+High Speed camera to conduct Vision based modal analysis
 
 ## Data Collection and Analysis
 
+Two set of experimentation was conducted:
+
+First is collecting data with acclerometers 
+
+Second is collecting data with high speed cameras
+
+
 Multiple modal tests were conducted, and the data was categorized based on the impact location (denoted by H<jk>, where j and k represent the directions of excitation and response, respectively). The collected Frequency Response Functions (FRFs) were analyzed to identify the natural frequencies (Wn) of the robot arm in various directions.
 
-## Key Findings:
+## Key Findings :
 
-Modal Testing Results - Natural Frequencies (Hz)
 
-## Modal Testing Results - Transposed
 
-| Measurement | **15th May** | **13th May** | **Remarks** |
+## Modal Testing Results - Natural Frequencies (Hz) using acclerometers
+![image](https://github.com/ashutoshpanpalia/System_identification/assets/43078289/d3c2a5b3-38bf-42e7-a2e6-d1abfe62778d)
+![image](https://github.com/ashutoshpanpalia/System_identification/assets/43078289/462e1424-5ee6-4c1f-892e-cfc342d180eb)
+![image](https://github.com/ashutoshpanpalia/System_identification/assets/43078289/ef4af271-284c-4e69-aa13-f7556864735f)
+
+
+
+
+| Measurement | **Exp-2** | **Exp-1** | **Remarks** |
 |---|---|---|---|
-| FRF | Natural Frequency (15th May) | Natural Frequency (13th May) |  |
+| FRF | Natural Frequency (Exp-2) | Natural Frequency (Exp-1) |  |
 | Date | 2023 | 2023 |  |
 | Hxx | 13, 37, 55 | - | The experiment is repeatable as FRF overlaps |
 | Hyy | 15, 66, 107 | 51, 68, 109 | "The data for Hyy collected on 15th May is repeatable as FRF coincides. It also shows that the data is coherent with experiments on 13th May at higher frequency (>50Hz). Both data set have Wn at ~66 and 107 Hz." |
@@ -36,6 +56,18 @@ Modal Testing Results - Natural Frequencies (Hz)
 | Overall |  |  | The robot arm exhibited multiple natural frequencies across different directions, ranging from approximately 8 Hz to 107 Hz. |
 
 Repeatability of the experiments was verified by comparing FRFs from different test sessions. Data for specific directions (Hxx, Hyy, Hzz) showed good repeatability, while others (Hyx, Hxy) required further investigation due to inconsistencies at lower frequencies.
-
 A potential non-linear behavior of the robot structure was observed. The analysis of excitation forces revealed significant variations, leading to changes in the FRFs for some directions (e.g., Hxy). This suggests that the robot's dynamic response may not be entirely linear and might be influenced by the excitation force level.
 Reciprocity, a property where the FRFs for opposite impact and response directions (e.g., Hxz and Hzx) are identical, was confirmed for the X and Z directions. However, further testing was deemed necessary to assess reciprocity in other directions due to data limitations.
+
+
+## Modal Testing Results - Natural Frequencies (Hz) using high speed cameras
+**Extraction of Displacement data from high speed camera using Image Analysis**
+![image](https://github.com/ashutoshpanpalia/System_identification/assets/43078289/d060af97-e2ea-4f91-b569-c041b0568477)
+
+![image](https://github.com/ashutoshpanpalia/System_identification/assets/43078289/ac5856b7-43af-428d-8dd3-b0f1b24da2aa)
+
+![image](https://github.com/ashutoshpanpalia/System_identification/assets/43078289/8394b08e-41be-4782-9bac-d326ba1c9697)
+![image](https://github.com/ashutoshpanpalia/System_identification/assets/43078289/927fd215-c632-42b7-b13f-a80f061dea09)
+
+
+
