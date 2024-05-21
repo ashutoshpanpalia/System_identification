@@ -3,11 +3,24 @@
 This project investigates the modal properties (natural frequencies and mode shapes) of a Fanuc robot arm using modal testing techniques. Modal testing helps characterize the dynamic behavior of a structure by identifying its natural frequencies and corresponding vibration patterns. 
 
 **Control system design**: Understanding the natural frequencies allows for designing controllers that avoid exciting these resonances, improving robot performance and stability.
+
 **Vibration analysis and mitigation**: Identifying the modes helps diagnose and mitigate excessive vibrations that can impact robot accuracy and lifespan.
+
 **Structural health monitoring**: Changes in modal properties over time can indicate potential damage or fatigue in the robot structure.
 
+
+## My contribution in the project:
+▪ Developed experimental framework to conduct system identification of 6-DOF industrial robotic arm.
+
+▪ Executed 27 pilot experiments for dynamic system identification by employing modal analysis techniques.
+
+▪ Designed control strategy for 2-axis linear stage to reduce robotic machining dimensional error by 10%.
+
+▪ Utilized insights from modal analysis of robotic arm to design robust control system for improved path tracking.
+
+
 ## Experimental Setup
-Fanuc Robotic Arm ()
+Robotic Arm (Fanuc-S-439iW)
 
 Single-axis accelerometer (Dytran 3055D2) at various locations
 
