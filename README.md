@@ -28,11 +28,11 @@ Modal Testing Results - Natural Frequencies (Hz)
 | Hyy | 15, 66, 107 | 51, 68, 109 | "The data for Hyy collected on 15th May is repeatable as FRF coincides. It also shows that the data is coherent with experiments on 13th May at higher frequency (>50Hz). Both data set have Wn at ~66 and 107 Hz." |
 | Hzz | 9, 14, 56 | - | Data not repeatable for low frequency(<10Hz) above that the two sets of Hzz are repeatable |
 | Hxy | 13, 34, 57 | 8, 55, 106 | "The data for Hxy collected on 15th May is not repeatable at low frequency (<40Hz). It also shows that the data is coherent with experiments on 13th May at higher frequency (>40Hz). Both data set have Wn at ~55 Hz." |
-| Hyx | 8, 13, 34, 56 | 56, 74 | Peak at 56 Hz |
-| Hzy | 13, 33, 54 | - | No data |
-| Hyz | - | - | Not repeatable |
-| Hxz | 9, 13, 39, 56 | - | Not repeatable (low freq.) |
-| Hzx | 12, 38, 56 | - | Not repeatable (low freq.) |
+| Hyx | 8, 13, 34, 56 | 56, 74 | "The Data is not much repeatable as FRF do not coincide for most of the frequency. But the data in all the graphs of Hyx (15th May and 13th May) shows a definitive peaks at 56 Hz" |
+| Hzy | 13, 33, 54 | - | One set of data collected was noise so repeatability cannot be checked. |
+| Hyz | - | - | The FRF do not coincide fully, although following the same patterns showing repeatability of data|
+| Hxz | 9, 13, 39, 56 | - | The data is not repeatable at low frequency(<8Hz) but repeatable in the region after |
+| Hzx | 12, 38, 56 | - | The data is not repeatable at low frequency(<10Hz) but repeatable in the region after |
 | Overall |  |  | The robot arm exhibited multiple natural frequencies across different directions, ranging from approximately 8 Hz to 107 Hz. |
 
 Repeatability of the experiments was verified by comparing FRFs from different test sessions. Data for specific directions (Hxx, Hyy, Hzz) showed good repeatability, while others (Hyx, Hxy) required further investigation due to inconsistencies at lower frequencies.
