@@ -24,6 +24,8 @@ Modal hammer (PCB 086D20 with a hard tip) was used to excite the robot structure
 The data acquisition system (NI DAQ cDAQ-9171) captured the response of the accelerometer to the impact excitation
 
 High Speed camera to conduct Vision based modal analysis
+![image](https://github.com/ashutoshpanpalia/System_identification/assets/43078289/38d5a8e7-b210-449d-89bf-a009eb269730)
+
 
 ## Data Collection and Analysis
 
