@@ -11,6 +11,8 @@ This project investigates the modal properties (natural frequencies and mode sha
 
 ▪ Utilized insights from modal analysis of robotic arm to design robust control system for improved path tracking.
 
+▪ Benchmarked modal experiment results of vision-based algorithms against accelerometer sensor tests.
+
 
 ## Experimental Setup
 Robotic Arm (Fanuc-S-439iW)
