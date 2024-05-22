@@ -80,4 +80,17 @@ Reciprocity, a property where the FRFs for opposite impact and response directio
 ![image](https://github.com/ashutoshpanpalia/System_identification/assets/43078289/927fd215-c632-42b7-b13f-a80f061dea09)
 
 
+## Setup photos
+
+![20230522_115741](https://github.com/ashutoshpanpalia/System_identification/assets/43078289/a95adf91-75d1-43be-a6f9-268d99835407)
+![20230522_115732](https://github.com/ashutoshpanpalia/System_identification/assets/43078289/7c908e7f-5c53-4bdd-80b8-8ea252542495)
+![20230515_144205](https://github.com/ashutoshpanpalia/System_identification/assets/43078289/dc21a68c-0440-44e6-ada3-a9d90d373d8e)
+![20230515_142807](https://github.com/ashutoshpanpalia/System_identification/assets/43078289/e75e0ddd-8f4b-4d1b-94a5-f3a1cc8cb24a)
+![20230515_142801](https://github.com/ashutoshpanpalia/System_identification/assets/43078289/5e8ed96f-986d-4242-9b7d-dbccd9e2f337)
+![20230512_163153](https://github.com/ashutoshpanpalia/System_identification/assets/43078289/0a7ad742-cdb2-4d04-a3c8-5cc5f59d281a)
+![20230504_130820](https://github.com/ashutoshpanpalia/System_identification/assets/43078289/9c8a464a-f45d-4a1d-a72d-f53a3390f002)
+![20230424_133211](https://github.com/ashutoshpanpalia/System_identification/assets/43078289/7e976538-0a21-4d9e-b96e-a29b2a844abe)
+![20230421_161434](https://github.com/ashutoshpanpalia/System_identification/assets/43078289/973c2515-d9ca-4cba-8370-1435894c9743)
+
+
 
